@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  servidor:
+    build: .
+    container_name: servidor-py
+    ports:
+    - 22205:80
+
